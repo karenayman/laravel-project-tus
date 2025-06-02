@@ -28,6 +28,7 @@
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <x-nav-links href="/" :active="request()->is('/')">Home</x-nav-links>
               <x-nav-links href="/about" :active="request()->is('about')">About</x-nav-links>
+              <x-nav-links href="/jobs" :active="request()->is('jobs')">Jobs</x-nav-links>
               <x-nav-links href="/contact" :active="request()->is('contact')">Contact</x-nav-links>
             </div>
           </div>
